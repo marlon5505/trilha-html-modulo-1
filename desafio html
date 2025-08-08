@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+           1° Desafio HTML
+        </title>
+    </head>
+    <body>
+        <h1 id="inicio">Blog exemplo</h1>
+        <hr>
+        <h2>Indice</h2>
+        <ul>
+            <li><a href="#Surgimento">Como surgiu a internet?</a></li>
+            <li><a href="#funcionahtml">Como funciona o html?</a></li>
+            <li><a href="#tags">O que são tags?</a></li>
+            <li><a href="#site">Como é a estrutura de um site?</a></li>
+        </ul>
+
+        <h2 id="#Surgimento">Como surgiu a internet?</h2>
+        <img src="https://mwpt.com.br/wp-content/uploads/2021/04/Computador-com-tela-de-noticias-1024x683.jpg" width="350">
+        <p>A internet surgiu a partir de um projeto militar dos Estados Unidos chamado ARPANET, criado no final da década de 1960, durante a Guerra Fria. O objetivo era criar uma rede de comunicação segura e descentralizada entre computadores.</p>
+        <p>Com o tempo, a rede passou a ser usada também por universidades e centros de pesquisa. Nos anos 1980 e 1990, surgiram protocolos importantes como o TCP/IP (que permite a troca de dados entre redes) e a World Wide Web (WWW), criada por Tim Berners-Lee em 1991, tornando a internet mais acessível ao público geral.</p>
+        <blockquote><i>"A web é mais uma criação social do que técnica."— Tim Berners-Lee</i></blockquote>
+
+        <h2 id="funcionahtml">Como funciona o HTML?</h2>
+        <p>O HTML (HyperText Markup Language) é a linguagem usada para criar páginas da web.</p>
+        <p>Ele funciona como o esqueleto de um site, organizando o conteúdo em textos, imagens, links, botões, entre outros elementos.</p>
+
+        <h3>Resumo simples:</h3>
+        <ul>
+            <li>HTML estrutura o conteúdo da página</li>
+            <li>Usa "tags" (como p, h1, img, a) para marcar cada parte.</li>
+            <li>Não é linguagem de programação, mas de marcação.</li>
+            <li>Trabalha junto com o CSS (visual) e o JavaScript (funcionalidade).</li>   
+        </ul>
+
+        <h2 id="tags">O que são tags?</h2>
+        <small><a href="#inicio">Voltar ao inicio</a></small>
+        <p>As tags são comandos do HTML que servem para marcar e organizar o conteúdo de uma página da web.</p>
+        <ul>
+            <li>empre escritas entre < ></li>
+            <li>Dizem ao navegador o que cada parte do conteúdo é (título, parágrafo, imagem, etc).</li>
+            <li>Quase sempre têm uma abertura (p) e um fechamento (/p).</li>
+        </ul>
+
+        <h2 id="site">Como é a estrutura de um site?</h2>
+        <small><a href="#inicio">Voltar ao inicio</a></small>
+        <h3>O HTML é o esqueleto do site</h3>
+        <p>Imagine que um site é como um corpo humano.</p>
+        <ul>
+            <li><b>O HTML é o esqueleto</b></li>
+            <p>Ele dá a estrutura básica da página, dizendo onde ficam os títulos, textos, imagens, listas, links e outros conteúdos. Sem ele, o site não teria forma nem organização.</p>
+            <li><b>O CSS é a pele e a roupa.</b></li>
+            <p>Ele cuida da aparência do site: cores, fontes, tamanhos, posicionamento dos elementos — tudo o que faz o site ficar bonito e organizado visualmente.</p>
+            <li><b>O JavaScript é o músculo e o cérebro.</b></li>
+            <p>Ele traz a interatividade e a funcionalidade para o site: botões que clicam, animações, respostas rápidas sem recarregar a página, jogos, etc.</p>
+        </ul>
+     </body>  
+</html>
